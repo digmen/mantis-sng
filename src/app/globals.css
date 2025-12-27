@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary-color: #333333;
+    --color-secondary-color: #808080;
+    --color-tertiary-color: #00AC47;
+    --color-quaternary-color: #181818;
+    --color-quinary-color: #0F0F0F;
+    --color-senary-color: #212121;
+    --color-septenary-color: #0E0E0E;
+    --color-octonary-color: #171717;
+    --color-nonary-color: #272727;
+    --color-denary-color: #000000;
+}
+
+input:focus {
+    outline: none;
+}
+
+.container {
+    max-width: 1280;
+}
